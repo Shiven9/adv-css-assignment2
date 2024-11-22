@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic Habits</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@300;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Atomic Habits</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About the Author</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Buy Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-light py-5 text-center">
+        <div class="container">
+            <h1 class="display-4">Atomic Habits</h1>
+            <p class="lead">Tiny Changes, Remarkable Results</p>
+            <img src="images/image1.jpg" alt="Atomic Habits Cover" class="img-fluid rounded shadow">
+            <!-- https://images.app.goo.gl/pvayJ5nPgxAYyZPh6 -->
+        </div>
+    </header>
+
+    <!-- Author Section -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="images/author-1.jpg" alt="James Clear" class="img-fluid rounded-circle shadow">
+                </div>
+                <div class="col-md-8">
+                    <h2>About the Author</h2>
+                    <p>James Clear is a writer and speaker focused on habits, decision-making, and continuous improvement. His work has appeared in the New York Times, Time, and the Wall Street Journal, and he's helped millions of people learn how to master their habits and achieve their goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">More Reads from the Author</h2>
+            <div id="bookCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/image2.jpg" class="d-block w-100 fixed-size" alt="Another Book">
+                        <!-- https://images.app.goo.gl/3F73pkadGg8poEcM8 -->
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/image3.jpg" class="d-block w-100 fixed-size" alt="Another Book">
+                        <!-- https://images.app.goo.gl/zg591FrKrRzYPR9N9 -->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#bookCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#bookCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Synopsis Section -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2>Synopsis</h2>
+            <p>"Atomic Habits" offers a proven framework for improving every day. Clear draws on scientific research to show how habits can improve our lives, whether personally or professionally.</p>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2>Reviews</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"A masterpiece on habit formation."</p>
+                        <footer>- The New York Times</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"Insightful and practical advice."</p>
+                        <footer>- Harvard Business Review</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p>"An essential read for success."</p>
+                        <footer>- Forbes</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2>Table of Contents</h2>
+            <div class="accordion" id="tocAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter1">
+                            Chapter 1: The Power of Tiny Habits
+                        </button>
+                    </h2>
+                    <div id="chapter1" class="accordion-collapse collapse">
+                        <div class="accordion-body">Explore how small habits compound over time.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter2">
+                            Chapter 2: The Habit Loop
+                        </button>
+                    </h2>
+                    <div id="chapter2" class="accordion-collapse collapse">
+                        <div class="accordion-body">Learn about cues, cravings, and routines.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy Now Section -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Buy Now</h2>
+            <form>
+                <input type="text" class="form-control my-2" placeholder="Your Name">
+                <input type="email" class="form-control my-2" placeholder="Your Email">
+                <button class="btn btn-primary btn-lg">Purchase</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-dark text-white text-center">
+        <p>© 2024 Shiven ~200565777. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
